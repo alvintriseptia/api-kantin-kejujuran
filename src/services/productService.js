@@ -1,4 +1,4 @@
-const ProductModel = require("../models/ProductModel.js");
+const ProductModel = require("../models/productModel.js");
 const BoxService = require("../services/boxService.js");
 const path = require("path");
 const fs = require("fs");

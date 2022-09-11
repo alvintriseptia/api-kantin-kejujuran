@@ -1,4 +1,4 @@
-const BoxModel = require("../models/BoxModel.js");
+const BoxModel = require("../models/boxModel.js");
 
 const getCurrentBalance = async () => {
 	// get current balance sum of add transaction substract with sum of withdraw transaction
