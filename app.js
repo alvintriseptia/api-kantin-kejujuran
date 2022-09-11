@@ -13,7 +13,7 @@ app.use(
 		credentials: true,
 	})
 );
-app.use("/public", express.static("public"));
+app.use("/public", express.static("./public"));
 
 // Connect to database
 const db = require("./src/configs/index.js");
