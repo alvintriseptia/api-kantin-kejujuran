@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "kantin_app is a simple website that consists of some items for sale by students dan a box to store all the purchased money",
 	"main": "app.js",
+	"engines": {
+		"node" : "16.x"
+	},
 	"scripts": {
 		"dev": "nodemon app.js"
 	},
